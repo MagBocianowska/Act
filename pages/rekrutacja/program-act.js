@@ -5,7 +5,7 @@ import List from '../../src/components/List';
 const ProgramAct = () => {
   return (
     <Layout>
-      <Banner background={'../20210417_130711.jpg'} text='IDEA ACT' />
+      <Banner background={'../header/Act7.jpg'} text='IDEA ACT' />
 
       <p>
         Program ACT oferuje jednoroczny kurs kształcenia aktorskiego dla

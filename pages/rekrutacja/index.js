@@ -5,10 +5,7 @@ import Button from 'react-bootstrap/Button';
 const Rekrutacja = () => {
   return (
     <Layout>
-      <Banner
-        background={'../received_492220751788951.jpg'}
-        text='Rekrutacja'
-      />
+      <Banner background={'../header/Act1.jpg'} text='Rekrutacja' />
       <div className='button-container'>
         <div className='mb-2'>
           <Button variant='dark' size='lg' href='/rekrutacja/program-act'>

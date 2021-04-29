@@ -1,11 +1,13 @@
-import Layout from '../src/components/Layout';
+import { LayoutFooter } from '../src/components/Layout';
 import Banner from '../src/components/Banner';
+import Contact from '../src/components/Contact';
 
 const Kontakt = () => {
   return (
-    <Layout>
-      <Banner background={'received_492220751788951.jpg'} text='Kontakt' />
-    </Layout>
+    <LayoutFooter>
+      <Banner background={'/header/Act4.jpg'} text='Kontakt' />
+      <Contact />
+    </LayoutFooter>
   );
 };
 

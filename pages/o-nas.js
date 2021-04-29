@@ -4,7 +4,7 @@ import Banner from '../src/components/Banner';
 const About = () => {
   return (
     <Layout>
-      <Banner background={'20210417_130711.jpg'} text='O nas' />
+      <Banner background={'/header/Act2.jpg'} text='O nas' />
       <div className='wrapper'>
         <p>
           <span>ACT Studio Aktorskie</span> to niezwykłe miejsce na mapie

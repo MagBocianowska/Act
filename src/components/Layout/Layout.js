@@ -6,9 +6,33 @@ export const Layout = ({ children }) => {
     <div className='wrapper'>
       <Menu />
       <main>{children}</main>
-      {/* <Footer /> */}
+      <Footer />
       <style jsx>{`
         .wrapper {
+          max-width: 1240px;
+          margin: 0 auto;
+          padding: 0 20px;
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          box-shadow: 0 0 10px 1px #ddd;
+        }
+        main {
+          flex-grow: 1;
+        }
+      `}</style>
+    </div>
+  );
+};
+
+export const LayoutFooter = ({ children }) => {
+  return (
+    <div className='page-wrapper'>
+      <Menu />
+      <main>{children}</main>
+      <style jsx>{`
+        .page-wrapper {
           max-width: 1240px;
           margin: 0 auto;
           padding: 0 20px;

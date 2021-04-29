@@ -7,7 +7,7 @@ import Link from 'next/link';
 const Years = () => {
   return (
     <Layout>
-      <Banner background={'../received_492220751788951.jpg'} text='2021/2022' />
+      <Banner background={'../header/Act5.jpg'} text='2021/2022' />
       <h4>
         <span>ZASADY REKRUTACJI</span> 2021-2022
       </h4>
@@ -44,8 +44,8 @@ const Years = () => {
           Wystarczy napisać do nas z zapytaniem o możliwość konsultacji z
           konkretną osobą (100-170/60min). Więcej info w zakładce ONLINE.
         </li>
-        <h4>POTRZEBNE DOKUMENTY:</h4>
       </List>
+      <h4>POTRZEBNE DOKUMENTY:</h4>
       <div className='container'>
         <Button variant='light' size='lg'>
           <Link href='../PODANIE_O_PRZYJĘCIE_DO_ACT_SA.pdf'>
@@ -53,7 +53,7 @@ const Years = () => {
           </Link>
         </Button>
         <Button variant='dark' size='lg'>
-          <Link href='../Regulamin_ACT.pdf'>
+          <Link href='../RegulaminACT.pdf'>
             <a className='white'>Regulamin</a>
           </Link>
         </Button>

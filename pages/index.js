@@ -6,29 +6,27 @@ import Button from 'react-bootstrap/Button';
 
 const Home = () => {
   return (
-    <div className='wrapper'>
+    <div className='site-wrapper'>
       <Head>
         <title>Act</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Menu />
       <Carousel />
-      <div className='button-container'>
-        <div className='mb-2'>
-          <Button variant='dark' size='lg'>
-            <Link href='/rekrutacja/program-act'>
-              <a className='white'>Program ACT</a>
-            </Link>
-          </Button>{' '}
-          <Button variant='light' size='lg'>
-            <Link href='/rekrutacja/2021-2022'>
-              <a>Rekrutacja</a>
-            </Link>
-          </Button>
-        </div>
+      <div className='btn-container'>
+        <Button variant='dark' size='lg'>
+          <Link href='/rekrutacja/program-act'>
+            <a className='white'>Program ACT</a>
+          </Link>
+        </Button>{' '}
+        <Button variant='light' size='lg'>
+          <Link href='/rekrutacja/2021-2022'>
+            <a>Rekrutacja</a>
+          </Link>
+        </Button>
       </div>
       <style jsx>{`
-        .wrapper {
+        .site-wrapper {
           max-width: 1240px;
           margin: 0 auto;
           padding: 0 20px;
@@ -37,10 +35,11 @@ const Home = () => {
           flex-direction: column;
           justify-content: space-between;
           box-shadow: 0 0 10px 1px #ddd;
+          overflow: hidden;
         }
-        .button-container {
+        .btn-container {
           width: 100%;
-          margin: 0 auto;
+          margin: 50px auto;
           flex-grow: 1;
           display: flex;
           flex-direction: row;
@@ -53,6 +52,11 @@ const Home = () => {
         }
         .white {
           color: #fff;
+        }
+        @media (max-width: 800px) {
+          .btn-container {
+            flex-direction: column;
+          }
         }
       `}</style>
     </div>

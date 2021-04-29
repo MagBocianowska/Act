@@ -18,13 +18,13 @@ export const Carousel = () => {
     <div>
       <Slider {...settings}>
         <div className='img-container'>
-          <img src='baner/rysunek-mockup.jpg' alt='' />
+          <img src='banner/banner1.jpg' alt='' />
         </div>
         <div className='img-container'>
-          <img src='baner/20210411_144204.jpg' />
+          <img src='banner/20210411_144204.jpg' />
         </div>
         <div className='img-container'>
-          <img src='baner/20210417_130711.jpg' />
+          <img src='banner/20210417_130711.jpg' />
         </div>
       </Slider>
       <style jsx>{`

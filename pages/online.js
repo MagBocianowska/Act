@@ -5,7 +5,7 @@ import List from '../src/components/List';
 const Online = () => {
   return (
     <Layout>
-      <Banner background={'received_492220751788951.jpg'} text='Online' />
+      <Banner background={'/header/Act6.jpg'} text='Online' />
 
       <p>
         Podczas spotkania ONE TO ONE wybrany przez Ciebie wykładowca zaproponuje
