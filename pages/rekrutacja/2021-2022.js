@@ -67,10 +67,6 @@ const Years = () => {
         KSERO ŚWIADECTWA UKOŃCZENIA SZKOŁY ŚREDNIEJ/ZAŚWIADCZENIE O PRZEBIEGU
         EDUKACJI W SZKOLE ŚREDNIEJ
       </p>
-      <p>
-        ZAŚWIADCZENIE OD LEKARZA RODZINNEGO O BRAKU PRZECIWWSKAZAŃ DO PODJĘCIA
-        NAUKI W ACT
-      </p>
       <p>DOWÓD WPŁATY REKRUTACYJNEJ </p>
       <p>1 ZDJĘCIE FORMATU DOWODU OSOBISTEGO</p>
       <p className='description'>
