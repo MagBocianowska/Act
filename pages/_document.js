@@ -30,20 +30,18 @@ class MyDocument extends Document {
               fbq('track', 'PageView');`,
             }}
           />
-          <noscript>
-            <img
-              height='1'
-              width='1'
-              style={{
-                display: 'none',
-              }}
-              src={
-                'https://www.facebook.com/tr?id=818493912397508&ev=PageView&noscript=1'
-              }
-            />
-          </noscript>
         </Head>
         <body>
+          <img
+            height='1'
+            width='1'
+            style={{
+              display: 'none',
+            }}
+            src={
+              'https://www.facebook.com/tr?id=818493912397508&ev=PageView&noscript=1'
+            }
+          />
           <Main />
           <NextScript />
         </body>
