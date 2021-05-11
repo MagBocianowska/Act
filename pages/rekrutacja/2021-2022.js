@@ -35,7 +35,7 @@ const Years = () => {
       </h4>
       <List>
         <li>
-          Rok edukacji w ACT kosztuje 3 300 złotych, czyli 330 złotych
+          Rok edukacji w ACT kosztuje 3 900 złotych, czyli 390 złotych
           miesięcznie płatne do 10 każdego miesiąca.
         </li>
         <li>Opłata rekrutacyjna wynosi 120 złotych.</li>
